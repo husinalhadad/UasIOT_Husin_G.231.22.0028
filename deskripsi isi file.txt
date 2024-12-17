@@ -1,0 +1,16 @@
+Deskripsi file :
+
+kirim.php : tampilan website untuk indicator suhu dan kelembaban, indicator visual lampu, grafik kenaikan dan penurunan suhu realtime, record database realtime 
+
+kirim lampu.php : tampilan website untuk tombol on / off lampu
+
+kirim lampulcd.php : tampilan website untuk tombol on /off lampu, nantinya notif lampu on/off akan tampil di lcd 
+
+save_data.php : konfigurasi database
+
+lampu.ino : kendali lampu menggunakan tombol on / off yang dikonfigurasikan ke website mqtt
+
+lampulcd.ino : kendali lampu menggunakan tombol on / off disertai indikator suhu dan kelembaban yang tampil di lcd, nantinya notif lampu on / off akan tampil di lcd
+
+indikator_graph_database : indikator suhu dan kelembaban, indikator visual berupa lampu led untuk melihat kenaikan suhu, grafik realtime kenaikan penurunan suhu dan kelembaban, record database realtime dari phpmyadmin / mysql
+
